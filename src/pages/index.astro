@@ -1,16 +1,18 @@
 ---
-
+import UserForm from "../components/UserForm";
+import UserTable from "../components/UserTable";
 ---
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title class="">Limonet</title>
+		<UserForm client:visible/>
+		<UserTable client:visible/>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="antialiased text-slate-500 bg-gray-900 m-5">
 	</body>
 </html>
