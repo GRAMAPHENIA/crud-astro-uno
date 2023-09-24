@@ -43,7 +43,7 @@ const UserForm = () => {
   return (
     <>
       <div className="flex justify-center">
-        <h1 className="text-5xl my-12 text-white">User Form</h1>
+        <h1 className="text-5xl text-white my-12 font-bold">USUARIO</h1>
       </div>
       <div className="flex justify-center">
         <form onSubmit={createOrUpdateUser} className="w-full max-w-lg">
@@ -53,7 +53,7 @@ const UserForm = () => {
                 className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                 htmlFor="grid-first-name"
               >
-                Name
+                Nombre
               </label>
               <input
                 name="name"
@@ -101,7 +101,7 @@ const UserForm = () => {
                 placeholder="******************"
               />
               <p className="text-gray-600 text-xs italic">
-                Make it as long and as crazy as you'd like
+                Hazlo tan largo y alocado como quieras
               </p>
             </div>
           </div>
@@ -109,7 +109,7 @@ const UserForm = () => {
             type="submit"
             className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
           >
-            Button
+            Aceptar
           </button>
         </form>
       </div>
