@@ -1,25 +1,31 @@
-#
+# SENCILLO CRUD
 
-> Astro
+[Astro](https://astro.build/)
 
-Textos
-# 
-> react
-
-Textos
-# 
-> nanostore
-
-Textos
-
-# 
-> tailwind
-
-Textos
+`npm create astro@latest`
 
 #
-> nanoid
 
-Textos
+[React](https://react.dev/)
+
+`npm install react react-dom`
+
+#
+
+[Tailwind](https://tailwindcss.com/)
+
+`npm install -D tailwindcss`
+
+#
+
+[Nanostore](https://www.npmjs.com/package/nanostores)
+
+`npm i nanostores`
+
+#
+
+[Nanoid](https://www.npmjs.com/package/nanoid)
+
+`npm i nanoid`
 
 #
